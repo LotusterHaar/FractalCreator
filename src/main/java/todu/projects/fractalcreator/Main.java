@@ -6,6 +6,6 @@ class Main {
 
     public static void main(String[] args) {
 
-        Application.launch(HelloApplication.class, args);
+        Application.launch(FractalApplication.class, args);
     }
 }

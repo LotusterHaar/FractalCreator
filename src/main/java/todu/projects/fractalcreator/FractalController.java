@@ -3,7 +3,7 @@ package todu.projects.fractalcreator;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class FractalController {
     @FXML
     private Label welcomeText;
 
