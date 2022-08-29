@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caf17a3e-34c1-4511-b17d-ecef84bbc1ce" name="Changes" comment="Setup fx application. Uses FXML loader for layout.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/FractalPane.java" afterDir="false" />
+    <list default="true" id="caf17a3e-34c1-4511-b17d-ecef84bbc1ce" name="Changes" comment="Sierrpinski triangle is created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/FractalApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/FractalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/FractalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/FractalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/FractalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/FractalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/FractalPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todu/projects/fractalcreator/FractalPane.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/lotus/Downloads/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/lib",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lotus/Downloads/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/lib&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lotus\IdeaProjects\FractalCreator\src\main\resources" />
@@ -73,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661668679149</updated>
-      <workItem from="1661668680647" duration="4630000" />
+      <workItem from="1661668680647" duration="22213000" />
+      <workItem from="1661774483538" duration="7763000" />
     </task>
     <task id="LOCAL-00001" summary="Setup fx application. Uses FXML loader for layout.">
       <created>1661671396775</created>
@@ -82,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661671396775</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sierrpinski triangle is created">
+      <created>1661673482760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661673482760</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +105,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup fx application. Uses FXML loader for layout." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup fx application. Uses FXML loader for layout." />
+    <MESSAGE value="Sierrpinski triangle is created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sierrpinski triangle is created" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchMethodException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -7,26 +7,23 @@ import javafx.scene.shape.Polygon;
 
 public class FractalPane extends Pane {
 
-    private int order = 0;
-
     FractalPane() {
     }
 
-    /**
-     * Set a new order
-     */
-    public void setOrder(int order) {
-        this.order = order;
-        paint();
+    public void setDimensions(int width, int height) {
+        this.setWidth(width);
+        this.setHeight(height);
     }
 
-    protected void paint() {
+    public void paint(int order){
+        System.out.println(getWidth());
         // Select three points in proportion to the panel size
         Point2D p1 = new Point2D(getWidth() / 2, 10);
         Point2D p2 = new Point2D(10, getHeight() - 10);
         Point2D p3 = new Point2D(getWidth() - 10, getHeight() - 10);
         this.getChildren().clear(); // Clear the pane before redisplay
-        displayTriangles(this.order, p1, p2, p3);
+        displayTriangles(order, p1, p2, p3);
+
     }
 
     private void displayTriangles(int order, Point2D p1, Point2D p2, Point2D p3) {
@@ -48,5 +45,6 @@ public class FractalPane extends Pane {
         }
 
     }
+
 }
 
